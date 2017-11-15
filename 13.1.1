@@ -13,7 +13,7 @@ while True:
   PTW.state['d1'] = RPL.digitalRead(sensor_pin)
   PTW.post()
 
-  if PTW.state[] == 0:
+  if PTW.state() == 0:
       import RoboPiLib as RPL
       import setup
       RPL.servoWrite(0,0)
