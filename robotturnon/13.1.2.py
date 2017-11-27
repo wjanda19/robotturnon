@@ -6,7 +6,7 @@ RPL.servoWrite(0,1000)
 start = time.time()
 
 elapsed = (time.time() - start)
-for integer in time.time():
+if elapsed % 3 == 0:
     if elapsed == 3:
         import RoboPiLib as RPL
         import setup
