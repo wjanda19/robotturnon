@@ -18,5 +18,5 @@ def loop1():
             RPL.servoWrite(0,0)
     x = x + 1
     
-while(true):
+while(True):
     loop1()
