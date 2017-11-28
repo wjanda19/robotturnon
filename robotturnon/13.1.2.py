@@ -11,7 +11,7 @@ while True:
     global x
     x = x % 2
     elapsed = (time.time() - start)
-    print elapsed
+    elapsed = int(elapsed)
     if elapsed % 3 == 0:
         if elapsed == 3:
             import RoboPiLib as RPL
