@@ -14,7 +14,7 @@ while True:
     elapsed = (time.time() - start)
     elapsed = int(elapsed)
     if elapsed % 6 == 0:
-        if elapsed == 6
+        if elapsed == 6:
             import RoboPiLib as RPL
             import setup
             RPL.servoWrite(0,1000)
