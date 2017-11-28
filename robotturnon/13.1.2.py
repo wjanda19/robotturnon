@@ -5,6 +5,7 @@ import RoboPiLib as RPL
 RPL.servoWrite(0,1000)
 start = time.time()
 
+global x
 x = 2
 
 while True:
