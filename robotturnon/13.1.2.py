@@ -3,15 +3,13 @@ import setup
 from setup import RPL
 import RoboPiLib as RPL
 start = time.time()
-elapsed = (time.time() - start)
 
-global x
+
 x = 2
-global elapsed
 
 
 while True:
-    global x
+    elapsed = (time.time() - start)
     x = x % 2
     elapsed = int(elapsed)
     if elapsed == 3:
