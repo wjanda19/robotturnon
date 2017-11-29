@@ -5,11 +5,10 @@ import RoboPiLib as RPL
 start = time.time()
 elapsed = (time.time() - start)
 
-
-x = 2
 global x
-elapsed = (time.time() - start)
+x = 2
 global elapsed
+
 
 while True:
     global x
