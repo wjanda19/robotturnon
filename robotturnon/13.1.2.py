@@ -18,6 +18,7 @@ while True:
     if elapsed == 6:
        RPL.servoWrite(0,0)
        x = x + 1
+    time.time() = (time.time() - time.time())
     if elapsed == 9:
        RPL.servoWrite(0,1000)
        x = x + 1
