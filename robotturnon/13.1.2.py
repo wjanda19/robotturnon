@@ -2,7 +2,7 @@ import time
 import setup
 from setup import RPL
 import RoboPiLib as RPL
-RPL.servoWrite(0,1000)
+
 start = time.time()
 
 x = 2
