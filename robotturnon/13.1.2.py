@@ -2,8 +2,9 @@ import time
 import setup
 from setup import RPL
 import RoboPiLib as RPL
-elapsed = (time.time() - start)
 start = time.time()
+elapsed = (time.time() - start)
+
 
 x = 2
 global x
