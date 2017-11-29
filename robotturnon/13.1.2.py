@@ -18,4 +18,10 @@ while True:
     if elapsed == 6:
        RPL.servoWrite(0,0)
        x = x + 1
+    if elapsed == 9:
+       RPL.servoWrite(0,1000)
+       x = x + 1
+    if elapsed == 12:
+       RPL.servoWrite(0,0)
+       x = x + 1
 
