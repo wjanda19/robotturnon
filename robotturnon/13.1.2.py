@@ -17,5 +17,5 @@ while True:
        x = x + 1
     if elapsed == 6:
        RPL.servoWrite(0,0)
-       x = x - 1
+       x = x + 1
 
