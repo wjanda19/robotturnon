@@ -9,11 +9,11 @@ while True:
   PTW.state['d1'] = RPL.digitalRead(sensor_pin)
   PTW.post()
 
- def roboSpeed(speed):
-   m1 = 1500
-   m2 = m1
-   RPL.servoWrite(0,m1 + speed)
-   RPL.servoWrite(1,m2 - speed)
+  def roboSpeed(speed):
+     m1 = 1500
+     m2 = m1
+     RPL.servoWrite(0,m1 + speed)
+     RPL.servoWrite(1,m2 - speed)
   if RPL.digitalRead(sensor_pin) == 1:
      import RoboPiLib as RPL
      import setup
