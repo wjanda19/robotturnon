@@ -28,5 +28,8 @@ while True:
       start = time.time()
       elapsed = (time.time() - start)
       elapsed = int(elapsed)
+      if elapsed == 3:
+         RPL.servoWrite(0,2000)
+         RPL.servoWrite(1,1000)
     
 
