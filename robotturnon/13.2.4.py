@@ -24,3 +24,6 @@ while True:
      import setup
      RPL.servoWrite(0,1501)
      RPL.servoWrite(1,1501)
+     time.sleep(3)
+     RPL.servoWrite (0,0)
+     RPL.servoWrite (1,0)
