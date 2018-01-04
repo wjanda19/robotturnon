@@ -24,7 +24,6 @@ while True:
      import setup
      RPL.servoWrite(0,1501)
      RPL.servoWrite(1,1501)
-    
      start = time.time()
      elapsed = (time.time() - start)
      elapsed = int(elapsed)
