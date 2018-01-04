@@ -22,9 +22,9 @@ while True:
   if RPL.digitalRead(sensor_pin) == 0:
      import RoboPiLib as RPL
      import setup
+     start = time.time()
      RPL.servoWrite(0,1501)
      RPL.servoWrite(1,1501)
-     start = time.time()
      elapsed = (time.time() - start)
      elapsed = int(elapsed)
      print elapsed
