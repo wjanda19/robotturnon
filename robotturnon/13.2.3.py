@@ -10,7 +10,8 @@ while x == 1:
   RoboPi.analogRead(0)
   AnalogRead = RoboPi.analogRead(0)
   AnalogRead = int(AnalogRead)
+  print AnalogRead
   Dist = (500 * AnalogRead)/1024
-  for Dist 
+  print Dist
   
-import RoboPiLib as RoboPi
+#import RoboPiLib as RoboPi
