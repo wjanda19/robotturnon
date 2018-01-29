@@ -1,6 +1,6 @@
 import setup
 from setup import RPL
-import RoboPiLib as RPL
+import RoboPiLib as RoboPi
 
 RPL.servoWrite(0,1000)
 RPL.servoWrite(1,1000)
