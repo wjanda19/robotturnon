@@ -6,6 +6,8 @@ RoboPi.RoboPiInit(“/dev/ttyAMA0”,115200)
 
 RoboPi.pinMode(1,RoboPi.OUTPUT)
 RoboPi.digitalWrite(16,1)
+RoboPi.pinMode(17,RoboPi.PWM)
+RoboPi.analogWrite(17,127) 
 print RoboPi.analogRead(0)
 
 #RPL.servoWrite(0,1000)
