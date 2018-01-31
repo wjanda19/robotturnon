@@ -19,15 +19,17 @@ while True:
      RPL.servoWrite(0,1450)
      RPL.servoWrite(1,1550)
      
+     import time
+     import setup
+     from setup import RPL
+     import RoboPiLib as RPL
+     start = time.time()
+        
      x = 0
      while x == 0:
-        import time
-        import setup
-        from setup import RPL
-        import RoboPiLib as RPL
-        start = time.time()
-        start = int(start)
-        print start
+        elapsed = (time.time() - start)
+        elapsed = int(elapsed)
+        print elapsed
 
 
 
