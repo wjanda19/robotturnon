@@ -30,7 +30,12 @@ while True:
         elapsed = (time.time() - start)
         elapsed = int(elapsed)
         print elapsed
-
+        while elpased == 3:
+          elapsed = 3
+          import RoboPiLib as RPL
+          import setup
+          RPL.servoWrite(0,0)
+          RPL.servoWrite(1,0)
 
 
 
