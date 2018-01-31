@@ -20,4 +20,18 @@ while True:
      RPL.servoWrite(0,0)
      RPL.servoWrite(1,0)
      
+     import time
+     import setup
+     from setup import RPL
+     import RoboPiLib as RPL
+     start = time.time()
+    
+     while True:
+        elapsed = (time.time() - start)
+        if elapsed == 3:
+          import RoboPiLib as RPL
+          import setup
+          RPL.servoWrite(0,0)
+          RPL.servoWrite(1,0)
+     
      
