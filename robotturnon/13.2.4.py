@@ -19,7 +19,7 @@ while True:
      import RoboPiLib as RPL
      import setup
      RPL.servoWrite(0,100)
-     RPL.servoWrite(1,1600)
+     RPL.servoWrite(1,1550)
      break
  
      
