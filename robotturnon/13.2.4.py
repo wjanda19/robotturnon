@@ -26,13 +26,13 @@ while True:
      start = time.time()
      x = 2
      while True:
-      elapsed = (time.time() - start)
-      x = 0
-      elapsed = int(elapsed)
+        elapsed = (time.time() - start)
+        x = 0
+        elapsed = int(elapsed)
       
-      if elapsed % 3 == 0:
-        import RoboPiLib as RPL
-        import setup
-        RPL.servoWrite(0,0)
-        RPL.servoWrite(1,0)
-        quit()
+        if elapsed % 3 == 0:
+          import RoboPiLib as RPL
+          import setup
+          RPL.servoWrite(0,0)
+          RPL.servoWrite(1,0)
+          quit()
