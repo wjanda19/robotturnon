@@ -29,7 +29,7 @@ while True:
      while x == 0:
         elapsed = (time.time() - start)
         elapsed = int(elapsed)
-        print elapsed
+        
         if elpased == 3:
           
           import RoboPiLib as RPL
