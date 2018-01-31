@@ -30,8 +30,7 @@ while True:
         elapsed = (time.time() - start)
         elapsed = int(elapsed)
         print elapsed
-        global elapsed
-        while elpased == 3:
+        if elpased == 3:
           
           import RoboPiLib as RPL
           import setup
