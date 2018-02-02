@@ -21,8 +21,6 @@ while True:
      
      import time
      import setup
-     from setup import RPL
-     import RoboPiLib as RPL
      start = time.time()
         
      x = 0
@@ -36,6 +34,5 @@ while True:
           import setup
           RPL.servoWrite(0,0)
           RPL.servoWrite(1,0)
-
 
 
