@@ -28,7 +28,7 @@ while True:
      while True:
         elapsed = (time.time() - start)
         elapsed = int(elapsed)
-        if elpased % 1 == 3:
+        if elapased % 1 == 3:
           import RoboPiLib as RPL
           import setup
           RPL.servoWrite(0,0)
