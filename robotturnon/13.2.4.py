@@ -23,8 +23,7 @@ while True:
      import setup
      start = time.time()
         
-     x = 0
-     while x == 0:
+     while True:
         elapsed = (time.time() - start)
         elapsed = int(elapsed)
         
