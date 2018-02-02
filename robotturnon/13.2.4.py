@@ -29,9 +29,8 @@ while True:
         elapsed = (time.time() - start)
         elapsed = int(elapsed)
         if elapsed % 1 == 3:
-          import RoboPiLib as RPL
-          import setup
-          RPL.servoWrite(0,0)
-          RPL.servoWrite(1,0)
+          import robooff
+          execfile(13.2.4.py)
+          
 
 
