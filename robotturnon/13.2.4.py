@@ -26,10 +26,10 @@ while True:
       from setup import RPL
       import RoboPiLib as RPL
       start = time.time()
-      print start
       y = 1
       
       while True:
+        print "done"
         elapsed = (time.time() - start)
         x = 1
         elapsed = int(elapsed)
