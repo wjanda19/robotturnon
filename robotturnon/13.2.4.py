@@ -4,7 +4,7 @@ import post_to_web as PTW # see post_to_web.py for instructions
 
 sensor_pin = 16
 RPL.pinMode(sensor_pin,RPL.INPUT)
-x = 1
+x = 0
 
 while True:
   if x == 1:
