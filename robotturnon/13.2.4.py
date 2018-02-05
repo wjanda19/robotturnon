@@ -20,7 +20,7 @@ while True:
      RPL.servoWrite(1,1550)
      x = 0
       
-     while x = 0:
+     while x == 0:
       import time
       import setup
       from setup import RPL
