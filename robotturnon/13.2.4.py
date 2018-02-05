@@ -8,18 +8,19 @@ x = 1
 
 while True:
   if x == 1:
-     import time
-     import setup
-     from setup import RPL
-     import RoboPiLib as RPL
-     start = time.time()
-     start = int(start)
-     if start == 3:
-        import RoboPiLib as RPL
-        import setup
-        RPL.servoWrite(0,0)
-        RPL.servoWrite(1,0)
-        exit
+     print "done"
+   #  import time
+   #  import setup
+   #  from setup import RPL
+    # import RoboPiLib as RPL
+    # start = time.time()
+    # start = int(start)
+   #  if start == 3:
+       # import RoboPiLib as RPL
+       # import setup
+     #   RPL.servoWrite(0,0)
+      #  RPL.servoWrite(1,0)
+       # exit
       
   if RPL.digitalRead(sensor_pin) == 1:
      import RoboPiLib as RPL
