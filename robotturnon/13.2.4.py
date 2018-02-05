@@ -29,10 +29,9 @@ while True:
       
       
       while True:
-        elapsed = (time.time() - start)
+        elapsed = int(time.time() - start)
         y = 1
-        count = int(elapsed)
-        print count
+        print elapsed
         if count % 3 == 0:
           RPL.servoWrite(0,1000)
           break
