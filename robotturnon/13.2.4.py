@@ -4,24 +4,9 @@ import post_to_web as PTW # see post_to_web.py for instructions
 
 sensor_pin = 16
 RPL.pinMode(sensor_pin,RPL.INPUT)
-x = 0
 
-while True:
-  if x == 1:
-     print "done"
-   #  import time
-   #  import setup
-   #  from setup import RPL
-    # import RoboPiLib as RPL
-    # start = time.time()
-    # start = int(start)
-   #  if start == 3:
-       # import RoboPiLib as RPL
-       # import setup
-     #   RPL.servoWrite(0,0)
-      #  RPL.servoWrite(1,0)
-       # exit
-      
+
+while True:    
   if RPL.digitalRead(sensor_pin) == 1:
      import RoboPiLib as RPL
      import setup
@@ -33,7 +18,7 @@ while True:
      import setup
      RPL.servoWrite(0,1450)
      RPL.servoWrite(1,1550)
-     x = 1
+     
           
 
 
