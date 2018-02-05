@@ -31,6 +31,7 @@ while True:
       while True:
         elapsed = (time.time() - start)
         count = int(elapsed)
+        print count
         if count % 3 == 0:
           RPL.servoWrite(0,1000)
           break
