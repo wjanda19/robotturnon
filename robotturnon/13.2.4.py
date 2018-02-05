@@ -34,14 +34,6 @@ while True:
      RPL.servoWrite(0,1450)
      RPL.servoWrite(1,1550)
      x = 1
-     
-      
-     while True:
-        elapsed = (time.time() - start)
-        elapsed = int(elapsed)
-        if elapsed % 1 == 3:
-          import robooff
-          execfile(robooff)
           
 
 
