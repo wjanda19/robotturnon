@@ -26,10 +26,11 @@ while True:
       from setup import RPL
       import RoboPiLib as RPL
       start = time.time()
-      y = 1
+      
       
       while True:
         elapsed = (time.time() - start)
+        y = 1
         count = int(elapsed)
         print count
         if count % 3 == 0:
