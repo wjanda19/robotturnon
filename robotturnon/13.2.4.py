@@ -18,6 +18,7 @@ while True:
      import setup
      RPL.servoWrite(0,1450)
      RPL.servoWrite(1,1550)
+     break
      
           
 
