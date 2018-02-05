@@ -21,13 +21,12 @@ while True:
      x = 0
       
      while x == 0:
-      print "done"
       import time
       import setup
       from setup import RPL
       import RoboPiLib as RPL
       start = time.time()
-      
+      print start
       y = 1
       
       while True:
