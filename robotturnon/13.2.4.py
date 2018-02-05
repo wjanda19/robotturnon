@@ -21,6 +21,7 @@ while True:
      x = 0
       
      while x == 0:
+      print "done"
       import time
       import setup
       from setup import RPL
@@ -31,7 +32,7 @@ while True:
       
       while True:
         elapsed = (time.time() - start)
-        x = 0
+        x = 1
         elapsed = int(elapsed)
         if elapsed % 3 == 0:
           RPL.servoWrite(0,1000)
