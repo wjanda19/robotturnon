@@ -35,7 +35,5 @@ while True:
         if elapsed % 3 == 0:
           RPL.servoWrite(0,1000)
           break
-     
           
-
 
