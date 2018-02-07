@@ -32,8 +32,10 @@ while True:
         elapsed = time.time() - start
         y = 1
         print int(elapsed)
-        if int(elapsed) % 3 == 0:
-          RPL.servoWrite(0,1000)
-          break
+        if int(elapsed) != 0:
+          y = 2
+          if int(elapsed) % 3 == 0:
+            RPL.servoWrite(0,1000)
+            break
           
 
