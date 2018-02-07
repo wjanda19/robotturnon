@@ -40,6 +40,7 @@ while True:
             elapsed2 = time.time() - start
             
             if int(elapsed2) != 0:
+              print elapsed2
               while int(elapsed) % 1 == 0:
                 RPL.servoWrite(0,0)
                 RPL.servoWrite(1,0)
