@@ -29,7 +29,7 @@ while True:
       
       
       while True:
-        elapsed = int(time.time() - start)
+        elapsed = time.time() - start
         y = 1
         print elapsed
         if elapsed % 3 == 0:
