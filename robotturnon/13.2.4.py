@@ -43,5 +43,6 @@ while True:
               while int(elapsed) % 1 == 0:
                 RPL.servoWrite(0,0)
                 RPL.servoWrite(1,0)
+                quit()
               
 
