@@ -31,12 +31,17 @@ while True:
       while True:
         elapsed = time.time() - start
         y = 1
-        print int(elapsed)
+        
         if int(elapsed) != 0:
           y = 2
           while int(elapsed) % 1 == 0:
-            RPL.servoWrite(0,0)
-            RPL.servoWrite(1,0)
-            quit()
-          
+            RPL.servoWrite(0,1500)
+            RPL.servoWrite(1,1500)
+            elapsed2 = time.time() - start
+            
+            if int(elapsed) != 0:
+              while int(elapsed) % 1 == 0:
+                RPL.servoWrite(0,0)
+                RPL.servoWrite(1,0)
+              
 
